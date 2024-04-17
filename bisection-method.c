@@ -2,7 +2,7 @@
 #include <math.h>
 
 double f(double a, double b, double c, double x) {
-  return x - exp(-x);
+  return a*x*x + b*x + c;
 }
 
 int main(void) {
